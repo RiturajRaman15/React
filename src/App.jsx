@@ -21,6 +21,8 @@ import UseMemo from "./MyComponents/UseMemo.jsx";
 import UseCallBack from "./MyComponents/UseCallBack.jsx";
 import ReactRedux from "./MyComponents/ReactRedux.jsx";
 import ComponentDidMount from "./MyComponents/ComponentDidMount.jsx";
+import ComponentDidUpdate from "./MyComponents/ComponentDidUpdate.jsx";
+import ShouldComponentUpdate from "./MyComponents/ShouldComponentUpdate.jsx";
 
 function App() {
 
@@ -55,6 +57,8 @@ function App() {
                     <Route path={"/usecallback"} element={<UseCallBack/>}/>
                     <Route path={"/redux"} element={<ReactRedux/>}/>
                     <Route path={"/compdidmount"} element={<ComponentDidMount/>}/>
+                    <Route path={"/compdidupdate"} element={<ComponentDidUpdate/>}/>
+                    <Route path={"/shouldcompupdate"} element={<ShouldComponentUpdate/>}/>
                 </Routes>
             </BrowserRouter>
         </>

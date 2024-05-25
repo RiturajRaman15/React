@@ -72,6 +72,12 @@ function Nav() {
                             <li className="nav-item">
                                 <Link className="nav-link" to="/compdidmount">Component Did Mount</Link>
                             </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/compdidupdate">Component Did Mount</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/shouldcompupdate">Should Component Update</Link>
+                            </li>
 
                         </ul>
                     </div>
