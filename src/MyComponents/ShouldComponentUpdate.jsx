@@ -22,7 +22,7 @@ class ShouldComponentUpdate extends react.Component {
                 <h6>Check Console</h6>
                 <h3>Hello {this.state.count}</h3>
                 <button onClick={() => this.setState({count: this.state.count + 1})}>Change</button>
-                <h4>Component did update only executes when the component gets updated.</h4>
+                <h4>Should Component update...</h4>
             </>
         )
     }
