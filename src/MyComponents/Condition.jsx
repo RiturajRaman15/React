@@ -16,15 +16,9 @@ export default function Condition() {
     //         </>
     //     )
     // }
-    return (
-        <>
-            {
-                loggedin ? <h3>Welcome Rituraj!</h3> : <h3>Please log in to continue</h3>
-            }
-            {
-                loggedinx === 1 ? <h3>Welcome Rituraj!</h3> : loggedinx === 2 ? <h3>Please log in to continue</h3> :
-                    <h3>Uffffffff!</h3>
-            }
-        </>
-    )
+    return (<>
+            {loggedin ? <h3>Welcome Rituraj!</h3> : <h3>Please log in to continue</h3>}
+            {loggedinx === 1 ? <h3>Welcome Rituraj!</h3> : loggedinx === 2 ? <h3>Please log in to continue</h3> :
+                <h3>Uffffffff!</h3>}
+        </>)
 }
