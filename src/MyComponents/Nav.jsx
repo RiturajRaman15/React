@@ -78,6 +78,9 @@ function Nav() {
                             <li className="nav-item">
                                 <Link className="nav-link" to="/compwillunmount">Component Will Unmount</Link>
                             </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/arraylisting">Array Listing</Link>
+                            </li>
 
                         </ul>
                     </div>

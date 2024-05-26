@@ -24,6 +24,7 @@ import ComponentDidMount from "./MyComponents/ComponentDidMount.jsx";
 import ComponentDidUpdate from "./MyComponents/ComponentDidUpdate.jsx";
 import ShouldComponentUpdate from "./MyComponents/ShouldComponentUpdate.jsx";
 import ComponentWillUnmount from "./MyComponents/ComponentWillUnmount.jsx";
+import ArrayListing from "./MyComponents/ArrayListing.jsx";
 
 function App() {
 
@@ -60,6 +61,7 @@ function App() {
                     <Route path={"/compdidupdate"} element={<ComponentDidUpdate/>}/>
                     <Route path={"/shouldcompupdate"} element={<ShouldComponentUpdate/>}/>
                     <Route path={"/compwillunmount"} element={<ComponentWillUnmount/>}/>
+                    <Route path={"/arraylisting"} element={<ArrayListing/>}/>
                 </Routes>
             </BrowserRouter>
         </>)
