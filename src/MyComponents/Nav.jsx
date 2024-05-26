@@ -43,9 +43,6 @@ function Nav() {
                             <li className="nav-item">
                                 <Link className="nav-link" to="/condition">Condition</Link>
                             </li>
-                            {/*<li className="nav-item">*/}
-                            {/*    <Link className="nav-link" to="/stateinfunc">State with Function</Link>*/}
-                            {/*</li>*/}
                         </ul>
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
@@ -77,6 +74,9 @@ function Nav() {
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/shouldcompupdate">Should Component Update</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/compwillunmount">Component Will Unmount</Link>
                             </li>
 
                         </ul>
