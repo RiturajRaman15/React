@@ -78,6 +78,8 @@ function Nav() {
                             <li className="nav-item">
                                 <Link className="nav-link" to="/compwillunmount">Component Will Unmount</Link>
                             </li>
+                        </ul>
+                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
                                 <Link className="nav-link" to="/arraylisting">Array Listing</Link>
                             </li>
