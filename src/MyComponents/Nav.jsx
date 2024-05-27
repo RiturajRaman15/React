@@ -1,4 +1,5 @@
 import {Link} from "react-router-dom";
+import HigherOrderComponent from "./HigherOrderComponent.jsx";
 
 function Nav() {
     return (
@@ -85,6 +86,9 @@ function Nav() {
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/arraylistingwthbts">Array Listing with Bootstrap</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/highordercomp">Higher Order Component</Link>
                             </li>
 
                         </ul>
