@@ -83,6 +83,9 @@ function Nav() {
                             <li className="nav-item">
                                 <Link className="nav-link" to="/arraylisting">Array Listing</Link>
                             </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/arraylistingwthbts">Array Listing with Bootstrap</Link>
+                            </li>
 
                         </ul>
                     </div>
