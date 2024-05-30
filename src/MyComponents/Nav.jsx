@@ -1,5 +1,4 @@
 import {Link} from "react-router-dom";
-import HigherOrderComponent from "./HigherOrderComponent.jsx";
 
 function Nav() {
     return (
