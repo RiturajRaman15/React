@@ -28,6 +28,7 @@ import ArrayListing from "./MyComponents/ArrayListing.jsx";
 import ArrayListingWithBootstrap from "./MyComponents/ArrayListingwithBootstrap.jsx";
 import HigherOrderComponent from "./MyComponents/HigherOrderComponent.jsx";
 import ArrayListingNestedList from "./MyComponents/ArrayListingNestedList.jsx";
+import ReuseComponentsLoop from "./MyComponents/ReuseComponentsLoop.jsx";
 
 function App() {
 
@@ -67,6 +68,7 @@ function App() {
                 <Route path={"/arraylisting"} element={<ArrayListing/>}/>
                 <Route path={"/arraylistingwthbts"} element={<ArrayListingWithBootstrap/>}/>
                 <Route path={"/arraylistingnested"} element={<ArrayListingNestedList/>}/>
+                <Route path={"/reusecomploop"} element={<ReuseComponentsLoop/>}/>
                 <Route path={"/highordercomp"} element={<HigherOrderComponent/>}/>
             </Routes>
         </BrowserRouter>
