@@ -1,8 +1,8 @@
 import {Component} from "react";
 
 class StateinClass extends Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
             name: "Rituraj",
             age: 20

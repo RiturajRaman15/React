@@ -2,8 +2,8 @@ import react from "react";
 
 class ComponentDidMount extends react.Component {
 
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
             name: "Rituraj"
         }

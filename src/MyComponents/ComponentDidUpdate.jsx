@@ -2,8 +2,8 @@ import react from "react";
 
 class ComponentDidUpdate extends react.Component {
 
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
             count: 0
         }

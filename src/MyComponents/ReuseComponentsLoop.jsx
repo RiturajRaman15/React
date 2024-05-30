@@ -1,5 +1,3 @@
-import {Table} from "react-bootstrap";
-
 export default function ReuseComponentsLoop() {
     const user = [
         {
