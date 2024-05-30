@@ -13,7 +13,7 @@ export default class ComponentWillUnmount extends react.Component {
     render() {
         console.log("Render");
         return (<>
-            <h1>Component Will Mount</h1>
+            <h1>Component Will Unmount</h1>
             <h6>Check Console</h6>
             {this.state.show ? <ComponentWillUnmountCHILD/> : null}
             <button onClick={() => this.setState({show: !this.state.show})}>Toggle</button>
@@ -38,7 +38,7 @@ class ComponentWillUnmountCHILD extends react.Component {
 
     render() {
         return (<>
-            <h2>Child Component for Component Will Mount</h2>
+            <h2>Child Component for Component Will Unmount</h2>
 
         </>)
     }

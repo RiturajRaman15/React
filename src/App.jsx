@@ -27,6 +27,7 @@ import ComponentWillUnmount from "./MyComponents/ComponentWillUnmount.jsx";
 import ArrayListing from "./MyComponents/ArrayListing.jsx";
 import ArrayListingWithBootstrap from "./MyComponents/ArrayListingwithBootstrap.jsx";
 import HigherOrderComponent from "./MyComponents/HigherOrderComponent.jsx";
+import ArrayListingNestedList from "./MyComponents/ArrayListingNestedList.jsx";
 
 function App() {
 
@@ -65,6 +66,7 @@ function App() {
                 <Route path={"/compwillunmount"} element={<ComponentWillUnmount/>}/>
                 <Route path={"/arraylisting"} element={<ArrayListing/>}/>
                 <Route path={"/arraylistingwthbts"} element={<ArrayListingWithBootstrap/>}/>
+                <Route path={"/arraylistingnested"} element={<ArrayListingNestedList/>}/>
                 <Route path={"/highordercomp"} element={<HigherOrderComponent/>}/>
             </Routes>
         </BrowserRouter>

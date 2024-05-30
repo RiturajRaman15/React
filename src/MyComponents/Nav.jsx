@@ -46,13 +46,25 @@ function Nav() {
                         </ul>
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <Link className="nav-link" to="/hooks">Hooks</Link>
-                            </li>
-                            <li className="nav-item">
                                 <Link className="nav-link" to="/style">Style</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/bootstrap">Bootstrap</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/compdidmount">Component Did Mount</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/compdidupdate">Component Did Update</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/shouldcompupdate">Should Component Update</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/compwillunmount">Component Will Unmount</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/hooks">Hooks</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/useeffect">useEffect</Link>
@@ -66,18 +78,6 @@ function Nav() {
                             <li className="nav-item">
                                 <Link className="nav-link" to="/redux">React Redux</Link>
                             </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/compdidmount">Component Did Mount</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/compdidupdate">Component Did Mount</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/shouldcompupdate">Should Component Update</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/compwillunmount">Component Will Unmount</Link>
-                            </li>
                         </ul>
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
@@ -86,6 +86,11 @@ function Nav() {
                             <li className="nav-item">
                                 <Link className="nav-link" to="/arraylistingwthbts">Array Listing with Bootstrap</Link>
                             </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/arraylistingnested">Nested List</Link>
+                            </li>
+
+
                             <li className="nav-item">
                                 <Link className="nav-link" to="/highordercomp">Higher Order Component</Link>
                             </li>
