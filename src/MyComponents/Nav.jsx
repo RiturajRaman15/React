@@ -89,6 +89,9 @@ function Nav() {
                             <li className="nav-item">
                                 <Link className="nav-link" to="/arraylistingnested">Nested List</Link>
                             </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/reusecomploop">Reuse Components in Loop</Link>
+                            </li>
 
 
                             <li className="nav-item">
